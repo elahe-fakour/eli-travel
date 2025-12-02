@@ -1,28 +1,22 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
       colors: {
-        textGray: "#71767b",
-        textGrayLight: "#e7e9ea",
-        borderGray: "#2f3336",
-        inputGray: "#202327",
-        iconBlue: "#1d9bf0",
-        iconGreen: "#00ba7c",
-        iconPink: "#f91880",
+        brandBlue: "#3B2F2F",     // قهوه‌ای تیره (اصلی)
+        brandGold: "#FFAD60",     // نارنجی گرم
+        brandCream: "#FFF8F0",    // پس‌زمینه ملایم
+        brandWhite: "#FFFFFF",
       },
-      screens: {
-        xsm: "518px",
-        sm:"636px",
-        md:"725px",
-        lg:"1025px",
-        xl:"1115px",
-        xxl:"1302px",
-      }
+      fontFamily: {
+        sans: ["Inter", "sans-serif"],
+        serif: ["Merriweather", "serif"],
+      },
+      boxShadow: {
+        soft: "0 4px 10px rgba(59, 47, 47, 0.1)",
+      },
     },
   },
   plugins: [],
-}
+};
