@@ -32,7 +32,7 @@ const HomePage = () => {
         <div className="flex-1 flex justify-center order-first md:order-last">
           <div className="relative p-1 bg-gradient-to-br from-brandBlue to-brandGold rounded-full shadow-2xl shadow-brandBlue/20">
             <img 
-              src="/images/eli-portrait.jpg" 
+              src={`${process.env.PUBLIC_URL}/images/eli-portrait.jpg`} 
               className="w-56 h-56 sm:w-72 sm:h-72 object-cover rounded-full border-4 border-brandCream" 
               alt="Eli" 
             />

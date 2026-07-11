@@ -53,7 +53,7 @@ function AboutMe() {
             <div className="flex-shrink-0">
               <div className="w-48 h-48 sm:w-60 sm:h-60 rounded-full p-1 bg-gradient-to-tr from-brandGold to-brandBlue transform hover:scale-105 transition duration-500 shadow-xl">
                 <img 
-                  src="/images/eli-portrait.jpg" 
+                  src={`${process.env.PUBLIC_URL}/images/eli-portrait.jpg`} 
                   alt="Eli portrait" 
                   className="w-full h-full object-cover rounded-full border-4 border-brandCream" 
                 />
