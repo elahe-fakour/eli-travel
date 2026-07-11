@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/eli-travel/static/css/main.2f6dc462.css",
-    "main.js": "/eli-travel/static/js/main.e365a96c.js",
+    "main.js": "/eli-travel/static/js/main.e7f7d0c5.js",
     "static/js/453.c9bba621.chunk.js": "/eli-travel/static/js/453.c9bba621.chunk.js",
     "index.html": "/eli-travel/index.html",
     "main.2f6dc462.css.map": "/eli-travel/static/css/main.2f6dc462.css.map",
-    "main.e365a96c.js.map": "/eli-travel/static/js/main.e365a96c.js.map",
+    "main.e7f7d0c5.js.map": "/eli-travel/static/js/main.e7f7d0c5.js.map",
     "453.c9bba621.chunk.js.map": "/eli-travel/static/js/453.c9bba621.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2f6dc462.css",
-    "static/js/main.e365a96c.js"
+    "static/js/main.e7f7d0c5.js"
   ]
 }
